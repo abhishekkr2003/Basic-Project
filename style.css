@@ -93,3 +93,54 @@ label.Section2{
     max-width: 50%;
     margin-left: 10px;
   }
+  
+  /* Footer */
+
+  .footer {
+    background-color: peru;
+    color: black;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contact-info, .social-media, .quick-links {
+    flex-basis: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 5px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin-bottom: 5px;
+}
+
+.quick-links a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
